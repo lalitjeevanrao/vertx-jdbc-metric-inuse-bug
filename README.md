@@ -8,4 +8,5 @@ To run the project, execute the following steps
 3. java -jar build/libs/vertx-jdbc-metric-inuse-bug.jar
 
 The console reporter will start reporting metrics in console at 10 seconds frequency.
-Under -- Counters --, check "vertx.pools.datasource.DEFAULT_DS.in-use" The value will be -1.
+Under -- Counters --, check "vertx.pools.datasource.DEFAULT_DS.in-use" 
+The value will be -1.
