@@ -2,7 +2,9 @@ package rao.lalit.eventbus.consumer;
 
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.json.JsonObject;
-
+/**
+ * @author lalitrao
+ * */
 public class JDBCEventMessageConsumer {
 	/**
      * Method responsible for processing incoming messages on mysqldb.queue.

@@ -12,7 +12,9 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.ext.jdbc.JDBCClient;
 import rao.lalit.enums.EventBusQueue;
 import rao.lalit.eventbus.consumer.JDBCEventMessageConsumer;
-
+/**
+ * @author lalitrao
+ * */
 public class JDBCVerticle extends AbstractVerticle {
 	public static final Logger LOG = LoggerFactory.getLogger(JDBCVerticle.class);
 	private final Vertx vertx;

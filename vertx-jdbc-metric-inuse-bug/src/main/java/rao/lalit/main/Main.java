@@ -11,7 +11,9 @@ import rao.lalit.constants.CommonConstants;
 import rao.lalit.eventbus.consumer.JDBCEventMessageConsumer;
 import rao.lalit.verticle.JDBCVerticle;
 import rao.lalit.verticle.MetricVerticle;
-
+/**
+ * @author lalitrao
+ * */
 public class Main {
 
 	public static void main(String[] args) {

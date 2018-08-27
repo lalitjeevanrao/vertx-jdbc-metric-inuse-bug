@@ -1,7 +1,7 @@
 package rao.lalit.enums;
-
+/**
+ * @author lalitrao
+ * */
 public enum EventBusQueue {
-    CASSANDRADBQUEUE, 
-    MYSQLDBQUEUE,
-    HIBERNATEQUEUE;
+    MYSQLDBQUEUE;
 }
